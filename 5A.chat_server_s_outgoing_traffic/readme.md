@@ -28,8 +28,8 @@ All names are case-sensitive.
 Print a single number — answer to the problem.
 
 #### Examples
-```
 input
+```
 +Mike
 Mike:hello
 +Kate
@@ -37,12 +37,14 @@ Mike:hello
 -Dmitry
 Kate:hi
 -Kate
+```
 output
+```
 9
 ```
 
-```
 input
+```
 +Mike
 -Mike
 +Mike
@@ -50,6 +52,8 @@ Mike:Hi   I am here
 -Mike
 +Kate
 -Kate
+```
 output
+```
 14
 ```
