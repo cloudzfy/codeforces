@@ -20,10 +20,10 @@ The second line contains the sequence, written by Peter during the first period 
 #### Output
 Output one of the four words without inverted commas:
 
-`«forward»` — if Peter could see such sequences only on the way from A to B;
-`«backward»` — if Peter could see such sequences on the way from B to A;
-`«both»` — if Peter could see such sequences both on the way from A to B, and on the way from B to A;
-`«fantasy»` — if Peter could not see such sequences.
+* `«forward»` — if Peter could see such sequences only on the way from A to B;
+* `«backward»` — if Peter could see such sequences on the way from B to A;
+* `«both»` — if Peter could see such sequences both on the way from A to B, and on the way from B to A;
+* `«fantasy»` — if Peter could not see such sequences.
 
 #### Examples
 ```
