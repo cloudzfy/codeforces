@@ -17,9 +17,10 @@ int main(int argc, const char * argv[]) {
     for (int i = 0; i < n; i++) {
         cin>>b;
         if (i != 0) {
-            while (pre >= b) {
-                b += d;
-                count++;
+            if (pre >= b) {
+                int tmp = ceil((double)(pre - b + 1) / d);
+                b += tmp * d;
+                count += tmp;
             }
         }
         pre = b;
